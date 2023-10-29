@@ -14,7 +14,7 @@ const command : SlashCommand = {
                 .setAuthor({name: "MRC License"})
                 .setDescription(`🏓 Pong! \n 📡 Ping: ${interaction.client.ws.ping}`)
                 .setColor(getThemeColor("text"))
-            ]
+            ],ephemeral: true
         })
     },
     cooldown: 10

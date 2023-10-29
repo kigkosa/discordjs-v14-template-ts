@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "dev": "nodemon -e ts --watch src .env --exec \"node build.js --incremental && node build/index.js\"",
         "start": "cls && node build/index.js",
         "build": "cls && node build.js"
     },
