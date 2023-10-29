@@ -1,6 +1,6 @@
 {
     "name": "discordjs-v14-template-ts",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -12,15 +12,15 @@
     "author": "MericcaN41",
     "license": "ISC",
     "dependencies": {
-        "@discordjs/rest": "^1.1.0",
-        "@types/node": "^18.7.14",
+        "@discordjs/rest": "^1.7.1",
+        "@types/node": "^18.18.7",
         "chalk": "^4.1.2",
-        "discord.js": "14.3.0",
-        "dotenv": "^16.0.2",
-        "mongoose": "^6.5.4"
+        "discord.js": "^14.3.0",
+        "dotenv": "^16.3.1",
+        "mongoose": "^6.12.2"
     },
     "devDependencies": {
-        "typescript": "^4.8.2"
+        "typescript": "^4.9.5"
     },
     "overrides": {
         "discord-api-types": "0.37.20"
