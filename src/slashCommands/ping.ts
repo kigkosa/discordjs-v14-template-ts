@@ -9,12 +9,7 @@ const command : SlashCommand = {
     ,
     execute: interaction => {
         interaction.reply({
-            embeds: [
-                new EmbedBuilder()
-                .setAuthor({name: "MRC License"})
-                .setDescription(`🏓 Pong! \n 📡 Ping: ${interaction.client.ws.ping}`)
-                .setColor(getThemeColor("text"))
-            ],ephemeral: true
+            content:"pong",ephemeral: true
         })
     },
     cooldown: 10
